@@ -21,6 +21,7 @@ return {
             -- ensure these lenguage parsers are installed
             ensure_installed = {
                 "json",
+                "astro",
                 "javascript",
                 "typescript",
                 "tsx",
