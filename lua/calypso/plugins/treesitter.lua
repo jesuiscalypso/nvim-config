@@ -13,12 +13,6 @@ return {
             },
             -- enable indentation
             indent = { enable = true },
-            -- enable autotagging (w/ nvim-ts-autotag plugin)
-            --  [DEPRECATED]
-         --   autotag = {
-         --       enable = true,
-         --   },
-            -- ensure these lenguage parsers are installed
             ensure_installed = {
                 "json",
                 "astro",
@@ -48,7 +42,7 @@ return {
                     scope_incremental = false,
                     node_decremental = "<bs>",
                 },
-            }
+            },
         })
     end
 }
