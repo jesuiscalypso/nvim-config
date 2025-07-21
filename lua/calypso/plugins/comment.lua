@@ -17,3 +17,4 @@ return {
         })
     end
 }
+-- The keybinding you're supposed to use for this is gc<motion>, Cal.
