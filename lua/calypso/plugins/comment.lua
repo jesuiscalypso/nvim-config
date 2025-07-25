@@ -17,4 +17,4 @@ return {
         })
     end
 }
--- The keybinding you're supposed to use for this is gc<motion>, Cal.
+-- The keybinding you're supposed to use for this is <motion>gc, Cal.
