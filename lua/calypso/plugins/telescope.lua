@@ -10,7 +10,7 @@ return {
     config = function()
         local telescope = require("telescope")
         local actions = require("telescope.actions")
-        
+
         telescope.setup({
             defaults = {
                 path_display = {"smart"},
@@ -27,8 +27,8 @@ return {
         telescope.load_extension("fzf")
 
         --set keymaps
-        
-        keymap = vim.keymap
+
+        local keymap = vim.keymap
 
         keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<CR>", {desc = "Fuzzy find files in cwd"})
         keymap.set("n", "<leader>fr", "<cmd>Telescope oldfiles<CR>", {desc = "Fuzzy find recent files"})
