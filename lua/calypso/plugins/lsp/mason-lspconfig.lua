@@ -1,8 +1,7 @@
 return {
     "mason-org/mason-lspconfig.nvim",
     opts = {
-
-          ensure_installed = {
+        ensure_installed = {
             "ts_ls",
             "html",
             "cssls",
@@ -13,7 +12,7 @@ return {
             "emmet_ls",
             "prismals",
             "basedpyright",
-          },
+        },
     },
     dependencies = {
         { "mason-org/mason.nvim", opts = {} },
