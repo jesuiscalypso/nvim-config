@@ -11,7 +11,8 @@ if not vim.uv.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup({{ import = "calypso.plugins"} , {import = "calypso.plugins.lsp"}}, {
+require("lazy").setup(
+{ { import = "calypso.plugins" }, { import = "calypso.plugins.lsp" }, { import = "calypso.plugins.syntax" } }, {
     checker = {
         enabled = true,
         notify = false,
