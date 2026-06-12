@@ -94,10 +94,10 @@ return {
                             'require',
                         },
                     },
-                    workspace = {
-                        library = { os.getenv("HOME") .. "/.local/share/lua-addons" },
-                        checkThirdParty = false,
-                    }
+                    -- workspace = {
+                    --     library = { os.getenv("HOME") .. "/.local/share/lua-addons" },
+                    --     checkThirdParty = false,
+                    -- }
                 },
             },
         })
